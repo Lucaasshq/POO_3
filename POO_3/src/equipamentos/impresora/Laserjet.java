@@ -1,5 +1,11 @@
 package equipamentos.impresora;
 
-public class Laserjet {
+public class Laserjet implements Impressora {
 
+	@Override
+	public void imprimir() {
+		System.out.println("IMPRIMINDO LASERJET");
+		
+	}
+	
 }

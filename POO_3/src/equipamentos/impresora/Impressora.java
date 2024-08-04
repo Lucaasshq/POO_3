@@ -1,9 +1,7 @@
 package equipamentos.impresora;
 
-public class Impressora {
+public interface Impressora {
 	
-	public void imprimir() {
-		System.out.println("IMPRIMINDO");
-	}
+	public void imprimir();
 
 }

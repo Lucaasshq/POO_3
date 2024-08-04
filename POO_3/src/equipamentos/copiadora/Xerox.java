@@ -1,5 +1,11 @@
 package equipamentos.copiadora;
 
-public class Xerox extends Copiadora {
+public class Xerox implements Copiadora {
+
+	@Override
+	public void Copiar() {
+		System.out.println("COPIANDO");
+		
+	}
 
 }
