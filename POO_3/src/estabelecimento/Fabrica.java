@@ -1,12 +1,23 @@
 package estabelecimento;
 
-import equipamentos.impresora.Deskjet;
+import equipamentos.EquipamentoMultifuncional;
+import equipamentos.copiadora.Copiadora;
+import equipamentos.digitalizadora.Digitalizadora;
+import equipamentos.digitalizadora.Scanner;
 import equipamentos.impresora.Impressora;
 
 public class Fabrica {
 	public static void main(String[] args) {
-		Impressora impressora = new Deskjet();
+		EquipamentoMultifuncional em = new EquipamentoMultifuncional();
 		
-		impressora.imprimir();
+		Scanner scanner = new Scanner();
+		
+		 Impressora impressora = em;
+		 Digitalizadora digitalizado = em;
+		 Copiadora copiadora = em;
+		 
+		 impressora.imprimir();
+		 digitalizado.Digitalizar();
+		 copiadora.Copiar();
 	}
 }

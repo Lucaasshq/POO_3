@@ -18,7 +18,7 @@ public class EquipamentoMultifuncional implements Copiadora, Digitalizadora, Imp
 
 	@Override
 	public void Copiar() {
-		System.err.println("COPIANDO VIA EQUIPAMENTO MULTIFUNCIONAL");
+		System.out.println("COPIANDO VIA EQUIPAMENTO MULTIFUNCIONAL");
 	}
 
 }
